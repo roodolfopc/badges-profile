@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+html {
+  --bg-color: #edf2ff;
+  --text-color: #00082f;
+  --primary-color: #4263eb;
+  --secondary-color: #364fc7;
+}
+
+body.dark-blue {
+  --bg-color: #00082f;
+  --text-color: #ffffff;
+}
+
+body.light-pink {
+  --bg-color: #fff0f6;
+  --text-color: #00082f;
+  --primary-color: #d6336c;
+  --secondary-color: #a61e4d;
+}
+
+body.dark-pink {
+  --bg-color: #1f000b;
+  --text-color: #ffffff;
+  --primary-color: #d6336c;
+  --secondary-color: #a61e4d;
+}
+
+body.light-yellow {
+  --bg-color: #976f34;
+  --text-color: #00082f;
+  --primary-color: #fffb00;
+  --secondary-color: #b2a600;
+}
+
+body.dark-yellow {
+  --bg-color: #1f000b;
+  --text-color: #ffffff;
+  --primary-color: #fffb00;
+  --secondary-color: #b2a600;
+}
+body.light-purple {
+  --bg-color: #e7beff;
+  --text-color: #00082f;
+  --primary-color: #d400ff;
+  --secondary-color: #b200a0;
+}
+
+body.dark-purple {
+  --bg-color: #1f000b;
+  --text-color: #ffffff;
+  --primary-color: #d400ff;
+  --secondary-color: #b200a0;
+}
+
+header h1 {
+  font-size: 32px;
+  margin: 28px auto 8px;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+.img-profile {
+  margin: 20px auto;
+  width: 100%;
+  border-radius: 50%;
+  padding: 3.7px;
+  border: var(--primary-color) solid 4px;
+}
+
+.user-name {
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+  font-weight: 400px;
+  opacity: 0.8;
+}
+
+.body-container {
+  text-align: center;
+  width: 300px;
+  margin: auto;
+}
+
+.main-container {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  margin: 48px 0;
+}
+
+ul li a {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-color);
+  color: var(--text-color);
+  text-transform: uppercase;
+  font-size: 18px;
+  margin: 32px;
+  border-radius: 6px;
+  transition: background 0.4s;
+}
+
+ul li a img {
+  margin: auto 10px;
+}
+
+ul li a:hover {
+  background-color: var(--secondary-color);
+  -webkit-transform: translate(2.5%);
+  transform: translate(2.5%);
+  -webkit-transition: 0.8s ease;
+  transition: 0.8s ease;
+}
+
+footer {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  opacity: 0.6;
+  transition: opacity 400ms;
+}
+
+footer:hover {
+  opacity: 1;
+}
+
+footer a {
+  color: var(--text-color);
+}
